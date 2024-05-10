@@ -7,6 +7,7 @@ const EstiloGlobal = createGlobalStyle`
         box-sizing: border-box;
         color: #fff;
         font-family: "Inter", sans-serif;
+        list-style: none;
     }
 
     body {

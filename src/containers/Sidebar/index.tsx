@@ -4,9 +4,7 @@ import { ImgProfile } from './style'
 const Sidebar = () => (
     <aside>
         <ImgProfile src="http://github.com/lllleao.png" alt="foto de perfil" />
-        <Title teste={'Olá'} fontSize={20}>
-            Lucas Leão
-        </Title>
+        <Title fontSize={20}>Lucas Leão</Title>
     </aside>
 )
 
