@@ -5,15 +5,17 @@ const EstiloGlobal = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        color: #fff;
         font-family: "Inter", sans-serif;
         list-style: none;
+        transition-property: background-color, color, border;
+        transition-duration: .5s;
+        transition-timing-function: ease;
     }
 
     body {
         padding-top: 80px;
         padding-bottom: 80px;
-        background-color: rgb(0, 0, 0);
+        background-color: ${(props) => props.theme.corDeFundo};
 
         @media (max-width: 768px) {
             padding-top: 16px;
