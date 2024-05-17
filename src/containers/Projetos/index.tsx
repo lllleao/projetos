@@ -7,34 +7,18 @@ const Projetos = () => (
         <Title fontSize={16}>Projetos</Title>
         <Lista>
             <li>
-                <Projeto />
+                <Projeto
+                    title="Calculadora"
+                    desc="VueJS | JavaScript"
+                    link="https://calculadora-flame-phi.vercel.app/"
+                />
             </li>
             <li>
-                <Projeto />
-            </li>
-            <li>
-                <Projeto />
-            </li>
-            <li>
-                <Projeto />
-            </li>
-            <li>
-                <Projeto />
-            </li>
-            <li>
-                <Projeto />
-            </li>
-            <li>
-                <Projeto />
-            </li>
-            <li>
-                <Projeto />
-            </li>
-            <li>
-                <Projeto />
-            </li>
-            <li>
-                <Projeto />
+                <Projeto
+                    title="Landing Page sobre cinefilia"
+                    desc="Bootstrap | Gulp"
+                    link="https://calculadora-flame-phi.vercel.app/"
+                />
             </li>
         </Lista>
     </section>

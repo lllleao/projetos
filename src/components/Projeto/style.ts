@@ -12,5 +12,5 @@ export const LinkBotao = styled.a`
     padding: 8px;
     cursor: pointer;
     margin-top: 24px;
-    color: ${(props) => props.theme.corDeFundo};
+    color: ${(props) => props.theme.corPrincipal};
 `

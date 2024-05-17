@@ -2,11 +2,19 @@ import Paragrafo from '../Paragrafo'
 import Title from '../Title'
 import { Card, LinkBotao } from './style'
 
-const Projeto = () => (
+type Props = {
+    title: string
+    desc: string
+    link: string
+}
+
+const Projeto = ({ title, desc, link }: Props) => (
     <Card>
-        <Title>Projeto Calculadora</Title>
-        <Paragrafo tipo="secundario">Calculadora com VueJS</Paragrafo>
-        <LinkBotao>Ver mais</LinkBotao>
+        <Title>{title}</Title>
+        <Paragrafo tipo="secundario">{desc}</Paragrafo>
+        <LinkBotao target="_blank" href={link}>
+            Ver mais
+        </LinkBotao>
     </Card>
 )
 
