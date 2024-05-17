@@ -6,10 +6,17 @@ const Sobre = () => (
     <section>
         <Title fontSize={16}>Sobre mim</Title>
         <Paragrafo tipo="principal">
-            Lorem iParagrafosum, dolor sit amet consectetur adipisicing elit.
-            Laborum Laborum sint nam obcaecati veniam? Tempore debitis sunt
-            quasi exercitationem dolor hic mollitia, deserunt iusto voluptas
-            corrupti, architecto eos dignissimos.
+            Cresci cuidando de uma pequena e clássica lan house que era mantida
+            pela minha mãe na nossa casa. Talvez essa seja a razão pela qual sou
+            tão apaixonado pelo mundo da tecnologia.
+        </Paragrafo>
+        <br />
+        <Paragrafo tipo="principal">
+            Tenho forte senso crítico, que vem da minha formação em filosofia, e
+            uma enorme vontade de resolver problemas complicados – amo um bom
+            desafio. Portanto, sou aberto ao aprendizado de tudo, uma vez que,
+            quanto mais ferramentas dominamos, mais somos resilientes a
+            percalços.
         </Paragrafo>
         <GithubSecao>
             <img
